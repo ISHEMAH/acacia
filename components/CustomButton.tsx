@@ -14,11 +14,11 @@ const CustomButton = ({
     <button
       disabled={false}
       type={"button"}
-      className={`rounded-full bg-blue-700 p-3 my-5 hover:bg-transparent ease-out duration-300 group hover:border-blue-700 hover:border-0  z-30 ${containerStyles}`}
+      className={`rounded-full bg-blue-700 hover:bg-white p-3 my-5 hover:bg-transparent ease-out duration-300 group hover:border-blue-700 hover:border-0  z-30 ${containerStyles}`}
       onClick={handleClick}
     >
       <span
-        className={`flex-1 text-white font-regular  group-hover:text-blue-700 ${textStyles}`}
+        className={`flex-1 text-white font-regular  group-hover:text-blue-700  ${textStyles}`}
       >
         {title}
       </span>
